@@ -1,0 +1,21 @@
+.home {
+
+    .banner {
+        background: url(../../assets/images/banner.svg);
+        width: 100%;
+        min-height: 60vh;
+        background-size: cover;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:750px) {
+    .banner {
+        background: linear-gradient(to bottom, #111 10%, rgba(0,0,0,0.4)), url(../../assets//images/banner.svg)!important;
+        color: var(--white);
+
+        img {
+            width: 18rem;
+        }
+    }
+}

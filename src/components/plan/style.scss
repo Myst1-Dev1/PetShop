@@ -1,0 +1,45 @@
+.plan {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+   .plan-container {
+    .plan-box {
+        padding: 1rem 0.625rem;
+
+        .icon-box {
+            width: 4rem;
+            height: 4rem;
+            border-radius: 50%;
+            background-color: var(--green-500);
+            color: var(--white);
+
+            .icon {
+                font-size: 1.8rem;
+            }
+        }
+
+        h2 {
+            font-size: 1.875rem;
+        }
+        h6 {
+            color: var(--gray-400);
+        }
+    }
+   }
+}
+
+@media(max-width:750px) {
+   .plan {
+    h2 {
+        text-align: center;
+    }
+    .plan-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .plan-box {
+            width: 15.625rem!important;
+        }
+    }
+   }
+}

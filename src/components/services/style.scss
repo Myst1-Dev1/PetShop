@@ -1,0 +1,47 @@
+.services {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+@media(max-width:750px) {
+
+    .services{
+        h2 {
+            text-align: center;
+        }
+
+        .service-container {
+            display: flex!important;
+            flex-direction: column!important;
+            justify-content: center!important;
+            align-items: center!important;
+
+            .service-box {
+                width: 18rem;
+
+                img {
+                    width: 18.75rem!important;
+                    margin: auto;
+                }
+
+                h5, p {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:320px) {
+    .services {
+        .service-container{
+
+            .service-box{
+
+                img {
+                    width: 15rem!important;
+                }
+            }
+        }
+    }
+}
